@@ -72,7 +72,7 @@ function draw() {
    
   }
 
-  // plot FFT.analyze() frequency analysis on the canvas
+ /* // plot FFT.analyze() frequency analysis on the canvas
   var spectrum = fft.analyze();
   for (var i = 0; i < spectrum.length/20; i++) {
     fill(spectrum[i], spectrum[i]/10, 0);
@@ -81,3 +81,4 @@ function draw() {
     rect(x, height, spectrum.length/20, -h);
   }
 }
+*/
