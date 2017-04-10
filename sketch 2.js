@@ -7,9 +7,9 @@ var timeSlider, timeSlider2, timeSlider3;
 function setup() {
   createCanvas(710, 200);
     
-  timeSlider = createSlider(0,10,2,1);  
-  timeSlider2 = createSlider(0,10,2,1);  
-  timeSlider3 = createSlider(0,10,2,1);
+  timeSlider = createSlider(0,20,2,1);  
+  timeSlider2 = createSlider(0,20,2,1);  
+  timeSlider3 = createSlider(0,20,2,1);
       
   osc = new p5.SinOsc();
   osc2 = new p5.SinOsc();
